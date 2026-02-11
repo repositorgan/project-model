@@ -1,1 +1,8 @@
+[[kv_namespaces]]
+binding = "SIGNUPS"
+id = "77004d5c363d41bc9f2a025322922326"
+
+[[kv_namespaces]]
+binding = "STATS"
+id = "c78448f006fc407a9e2b3494186ab680"
 
