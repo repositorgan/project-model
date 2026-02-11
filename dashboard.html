@@ -1,1 +1,11 @@
+<h1>Dashboard</h1>
+<p>Total Signups: <span id="count">0</span></p>
+<script>
+async function loadStats(){
+  const res = await fetch('/stats');
+  const data = await res.json();
+  document.getElementById('count').textContent = data.length;
+}
+loadStats();
+</script>
 
